@@ -4,7 +4,7 @@
   "description": "nina-art.gr front-end",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open"
+    "start": "webpack serve --watch --open"
   },
   "repository": {
     "type": "git",
