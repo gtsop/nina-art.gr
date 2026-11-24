@@ -1,0 +1,19 @@
+{
+  "name": "nina-art.gr",
+  "version": "1.0.0",
+  "description": "nina-art.gr front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtsop/nina-art.gr.git"
+  },
+  "author": "George Tsopanoglou",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gtsop/nina-art.gr/issues"
+  },
+  "homepage": "https://github.com/gtsop/nina-art.gr#readme"
+}
