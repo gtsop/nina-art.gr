@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "nina-art.gr front-end",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "webpack serve --watch --open"
+    "start": "webpack serve --open",
+    "build": "NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git",
