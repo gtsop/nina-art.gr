@@ -8,6 +8,7 @@ export default {
     htmlFilename: "[name].html",
     path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
+    publicPath: process.env.BASE_PATH || "/",
   },
   devServer: {
     static: "./dist",
