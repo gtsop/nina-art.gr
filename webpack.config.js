@@ -11,6 +11,6 @@ export default {
   },
   devServer: {
     static: "./dist",
-    watchFiles: ["./src/*"],
+    watchFiles: ["./src/**/*"],
   },
 };
