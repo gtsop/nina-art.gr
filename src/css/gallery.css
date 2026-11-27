@@ -1,0 +1,25 @@
+.gallery {
+  overflow: auto;
+  display: flex;
+}
+
+.gallery__section {
+  flex: 0 0 auto;
+  height: 400px;
+}
+
+.gallery__title {
+  position: sticky;
+  width: fit-content;
+  margin: 0;
+  max-width: 80vw;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gallery__wall {
+  width: 1000px;
+  height: 200px;
+  border: 1px solid black;
+}
